@@ -50,7 +50,7 @@ int write_history(info_t *info)
 	}
 	_putfd(BUF_FLUSH, fd);
 	close(fd);
-	return (1);
+	
 }
 
 /**
