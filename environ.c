@@ -43,7 +43,7 @@ char *_getenv(info_t *info, const char *name)
  */
 int _mysetenv(info_t *info)
 {
-	if (info->argc != 3)
+	
 	{
 		_eputs("Incorrect number of arguements\n");
 		return (1);
